@@ -1,16 +1,16 @@
 # proyectoHDP.github.io
 
-# Explicacion del proyecto:
+## Explicacion del proyecto:
 
-# Nombre de la libreria: MKLibrary
+## Nombre de la libreria: MKLibrary
 
-# Explicacion de la libreria
+## Explicacion de la libreria
 
-# Integrantes
+## Integrantes
 Josue Isaac Herrera Campos HC21018 <br>
 Angel Fernando Iraheta Sanchez IS21001 <br>
 Diego Isaac Garcia Pimentel GP21022 
 
-# Version del proyecto
+## Version del proyecto
 
-# Ejemplos
+## Ejemplos
