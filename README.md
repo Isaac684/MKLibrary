@@ -7,7 +7,7 @@
 # Explicacion de la libreria
 
 # Integrantes
-Josue Isaac Herrera Campos HC21018
+Josue Isaac Herrera Campos HC21018 <br>
 Angel Fernando Iraheta Sanchez IS21001
 Diego Isaac Garcia Pimentel GP21022
 
