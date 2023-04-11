@@ -3,7 +3,7 @@
 ## Explicacion del proyecto:
 El siguiente proyecto se tratara de crear una libreria tipo boostrap donde se implementara estilos personalizados <br>
 para el desarrollo web, ademas se creara una pagina web enfocada en un tema especifico en el cual se le aplicara  <br>
-los estilos de nuestra libreia desarollada.
+los estilos de nuestra libreria desarollada.
 
 
 ## Nombre de la libreria: MKLibrary
