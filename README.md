@@ -2,9 +2,12 @@
 
 ## Explicacion del proyecto:
 
+
 ## Nombre de la libreria: MKLibrary
 
 ## Explicacion de la libreria
+La libreria se tratara sobre la implementacion de estilos orientados <br>
+para personas aficionadas al gamimg. <br>
 
 ## Integrantes
 Josue Isaac Herrera Campos HC21018 <br>
