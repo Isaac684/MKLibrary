@@ -11,6 +11,6 @@ Josue Isaac Herrera Campos HC21018 <br>
 Angel Fernando Iraheta Sanchez IS21001 <br>
 Diego Isaac Garcia Pimentel GP21022 
 
-## Version del proyecto
+## Version del proyecto 0.1
 
 ## Ejemplos
