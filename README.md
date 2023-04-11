@@ -1,4 +1,4 @@
-# proyectoHDP.github.io
+# MKLibrary
 
 ## Explicacion del proyecto:
 El siguiente proyecto se tratara de crear una libreria tipo boostrap donde se implementara estilos personalizados <br>
