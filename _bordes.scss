@@ -1,71 +1,140 @@
 //Llamado del modulo colores para utilizar los colores de la libreria
 @use 'colores';
 //Declaracion de las variables borde (tamaño del borde) tipo (tipo de borde en este caso solid)
-$borde: 7px;
 $tipo: solid;
 
-.b-r1{
-    border-image: colores.$rgb-1 1;
-    border-style: $tipo;
-    border-width: $borde;
+$color-solido: (
+      "primario": colores.$primario,
+      "secundario": colores.$secundario,
+      "terciario": colores.$terciario,
+      "exito": colores.$exito,
+      "peligro": colores.$peligro,
+      "advertencia": colores.$advertencia,
+      "informacion": colores.$informacion,
+      "claro": colores.$claro,
+      "oscuro": colores.$oscuro,
+);
+
+$color-rgb:(
+        "r1": colores.$rgb-1,
+        "r2": colores.$rgb-2,
+        "r3": colores.$rgb-3,
+        "r4": colores.$rgb-4,
+        "r5": colores.$rgb-5,
+);
+
+$tamanio:(
+        "1": 3px,
+        "2": 7px,
+        "3": 10px,
+        "4": 13px,
+        "5": 16px,
+);
+
+$lados: (
+        "bar": 10px 0 0 0,
+        "bde": 0 1px 0 0,
+        "bab": 0 0 1px 0,
+        "biz": 0 0 0 1px,
+);
+
+//funcion para generar las clases de bordes (un borde a los 4 lados) con un color solido
+@each $borde, $valorborde in $tamanio {
+    @each $color, $valorcolor in $color-solido {
+        .b-#{$color}-#{$borde} {   
+            border-color: $valorcolor;
+            border-style: $tipo;
+            border-width: $valorborde;
+        }
+    }
 }
 
-.b-r2{
-    border-image: colores.$rgb-2 1;
-    border-style: $tipo;
-    border-width: $borde;
+//funcion para generar las clases para un borde (un solo lado, izquierdo, derecho etc) con un modo de color solido
+@each $lado, $ladoborde in $lados {
+    @each $borde, $valorborde in $tamanio {
+        @each $color, $valorcolor in $color-solido {
+            @if $lado == "bar" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-width: $valorborde 0 0 0;
+                }
+            }
+            
+            @if $lado == "bde" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-width: 0 $valorborde 0 0;
+                }
+            }
+            
+            @if $lado == "bab" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-width: 0 0 $valorborde 0;
+                }
+            }
+            
+            @if $lado == "biz" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-color: $valorcolor;
+                    border-style: $tipo;
+                    border-width: 0 0 0 $valorborde;
+                }
+            }
+        }
+    }
 }
 
-.b-r3{
-    border-image: colores.$rgb-3 1;
-    border-style: $tipo;
-    border-width: $borde;
+
+//funcion para generar las clases de bordes (un borde a los 4 lados) con un modo de color rgb
+@each $borde, $valorborde in $tamanio {
+@each $color, $valorcolor in $color-rgb {
+    .b-#{$color}-#{$borde} {   
+        border-image: $valorcolor 1;
+        border-style: $tipo;
+        border-width: $valorborde;
+        }
+    }
 }
 
-.b-r4{
-    border-image: colores.$rgb-4 1;
-    border-style: $tipo;
-    border-width: $borde;
-}
-
-.b-r5{
-    border-image: colores.$rgb-5 1;
-    border-style: $tipo;
-    border-width: $borde;
-}
-
-.b-p{
-    border: colores.$primario $borde $tipo;
-}
-
-.b-s{
-    border: colores.$secundario $borde $tipo;
-}
-
-.b-t{
-    border: colores.$terciario $borde $tipo;
-}
-
-.b-e{
-    border: colores.$exito $borde $tipo;
-}
-
-.b-p{
-    border: colores.$peligro $borde $tipo;
-}
-
-.b-a{
-    border: colores.$advertencia $borde $tipo;
-} 
-
-.b-i{
-    border: colores.$informacion $borde $tipo;
-} 
-
-.b-c{
-    border: colores.$claro $borde $tipo;
-} 
-
-.b-o{
-    border: colores.$oscuro $borde $tipo;
+//funcion para generar las clases para un borde (un solo lado, izquierdo, derecho etc) con un modo de color rgb
+@each $lado, $ladoborde in $lados {
+    @each $borde, $valorborde in $tamanio {
+        @each $color, $valorcolor in $color-rgb {
+            @if $lado == "bar" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-image: $valorcolor 1;
+                    border-style: $tipo;
+                    border-width: $valorborde 0 0 0;
+                }
+            }
+            
+            @if $lado == "bde" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-image: $valorcolor 1;
+                    border-style: $tipo;
+                    border-width: 0 $valorborde 0 0;
+                }
+            }
+            
+            @if $lado == "bab" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-image: $valorcolor 1;
+                    border-style: $tipo;
+                    border-width: 0 0 $valorborde 0;
+                }
+            }
+            
+            @if $lado == "biz" {
+                .#{$lado}-#{$color}-#{$borde} {   
+                    border-image: $valorcolor 1;
+                    border-style: $tipo;
+                    border-width: 0 0 0 $valorborde;
+                }
+            }
+        }
+    }
 } 
