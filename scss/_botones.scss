@@ -1,0 +1,17 @@
+@use 'bordes' as *;
+
+.boton-1-sm{
+    text-decoration:none;
+    color: white;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color:#4929aa;
+    width: fit-content;
+    padding: 13px;  
+}
+      
+.boton-1-sm:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
