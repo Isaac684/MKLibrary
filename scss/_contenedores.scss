@@ -1,0 +1,15 @@
+$contenedor-tamanio-maximo: (
+  pq: 540px,
+  md: 720px,
+  gn: 960px,
+  xgn: 1140px,
+);
+
+// Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+  width: 100%;
+  padding-right: $padding-x;
+  padding-left: $padding-x;
+  margin-right: auto;
+  margin-left: auto;
+}
