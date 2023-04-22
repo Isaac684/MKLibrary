@@ -5,57 +5,37 @@ $size-3: 45px;
 $size-4: 60px;
 $size-5: 75px;
 
-body{
-    background-color: $primario;
-}
 //sf = Tamaño de la fuente
-.sf-1{
-    font-size: $size-1;
+@mixin sizefont($nombre,$size){
+    .sf-#{$nombre}{
+        font-size: $size;
+    }
 }
-.sf-2{
-    font-size: $size-2;
-}
-.sf-3{
-    font-size: $size-3;
-}
-.sf-4{
-    font-size: $size-4;
-}
-.sf-5{
-    font-size: $size-5;
-}
+@include sizefont('1',$size-1);
+@include sizefont('2',$size-2);
+@include sizefont('3',$size-3);
+@include sizefont('4',$size-4);
+@include sizefont('5',$size-5);
 //gf = Grosor de la fuente
 .gf{
     font-weight: bold;
 }
+@mixin colorfuente($nombre, $color){
+    .color-font-#{$nombre}{
+        color:$color;
+    }
+}
+@include colorfuente('primario',$primario);
+@include colorfuente('secundario',$secundario);
+@include colorfuente('terceario',$terciario);
+@include colorfuente('exito',$exito);
+@include colorfuente('peligro',$peligro);
+@include colorfuente('advertencia',$advertencia);
+@include colorfuente('informacion',$informacion);
+@include colorfuente('claro',$claro);
+@include colorfuente('oscuro',$oscuro);
 
-.color-font-primario{
-    color: $primario;
-}
-.color-font-secundario{
-    color: $secundario;
-}
-.color-font-terceario{
-    color: $terciario;
-}
-.color-font-exito{
-    color: $exito;
-}
-.color-font-peligro{
-    color: $peligro;
-}
-.color-font-advertencia{
-    color: $advertencia;
-}
-.color-font-informacion{
-    color: $informacion;
-}
-.color-font-claro{
-    color: $claro;
-}
-.color-font-oscuro{
-    color: $oscuro;
-}
+
 //ttxt = Tipo de texto o funte 
 .ttxt-Arial{
     font-family: Arial;
