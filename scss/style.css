@@ -6463,6 +6463,25 @@ svg {
   color: rgb(255, 255, 255);
 }
 
+.barra-vertical {
+  background-color: #B6EADA;
+  width: 400px;
+  height: 90%;
+  text-align: center;
+}
+
+.link-s {
+  display: block;
+  text-decoration: none;
+  text-align: justify;
+  margin: 30px;
+  color: black;
+}
+
+.link-s:hover {
+  background-color: #3c91e6;
+}
+
 .ocultar {
   visibility: hidden;
 }
