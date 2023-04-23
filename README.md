@@ -1,7 +1,10 @@
+# Explicacion del proyectp
+
+_El siguiente proyecto consta de la creación de una librería tipo Boostrap, donde se implementan estilos personalizados para el desarrollo web, además se creara una página web enfocada en mostrar la implementación de los estilos de nuestra propia librería, así como el funcionamiento de cada uno atrevés de la documentación._
+
 # MKLibrary
 
-_El siguiente proyecto se consta de crear una libreria tipo Boostrap donde se implementan estilos personalizados
-para el desarrollo web, ademas se creara una pagina web enfocada en mostrar la implementacion de los estilos de nuestra propia libreria._
+_Nuestra librería consta de estilos personalizados enfocados al mundo GAMER, utilizando por ejemplo: Colores RGB de fondo, borde, sombras, a pesar de estar enfocado principalmente al mundo GAMER, también está enfocado en poder realizar diseños flexibles y poder implementarlos a través de contenedores flexibles y una implementación de filas y columnas de fácil entendimiento e implementación, así como diversas propiedades como colores de fondo, tipos de texto, bordes, paddings, bordes y algunas clases para definir por ejemplo: barras de navegación, formularios, alertas, tarjetas, contenedores etc. Esto y muchas más propiedades para que logres ese diseño que tanto deseas, de la manera más fácil, Bienvenido a MKLibrary esperamos ser de mucha ayuda en tú diseños._
 
 ## Comenzando 🚀
 
@@ -15,7 +18,7 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
--Un editor de texto, puedes ver aqui una lista de algunos editores -> [Los 17 mejores editores de código](https://www.hostinger.es/tutoriales/editores-de-codigo), el equipo de desarrollo de MKLibrary te recomendamos el siguiente editor [Visual Studio Code](https://code.visualstudio.com).
+-Un editor de texto.
 -Node.js para compilar codigo en SASS.
 -Instalacion previa de SASS.
 ```
