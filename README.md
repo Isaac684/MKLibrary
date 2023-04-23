@@ -1,4 +1,4 @@
-# Explicacion del proyectp
+# Explicacion del proyecto
 
 _El siguiente proyecto consta de la creación de una librería tipo Boostrap, donde se implementan estilos personalizados para el desarrollo web, además se creara una página web enfocada en mostrar la implementación de los estilos de nuestra propia librería, así como el funcionamiento de cada uno atrevés de la documentación._
 
