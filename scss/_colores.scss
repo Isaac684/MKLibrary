@@ -27,7 +27,20 @@ $color-solido: (
       "claro": $claro,
       "oscuro": $oscuro,
 );
+$color-claro: (
+    "primario": $primario,
+    "exito": $exito,
+    "advertencia": $advertencia,
+    "informacion": $informacion,
+    "claro": $claro,
+);
+$color-oscuro:(
+    "secundario": $secundario,
+    "terciario":$terciario,
+    "peligro": $peligro,
+    "oscuro": $oscuro,
 
+);
 $color-rgb:(
         "r1": $rgb-1,
         "r2": $rgb-2,
