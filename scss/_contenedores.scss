@@ -11,81 +11,69 @@ $breakpoint: (
   }
 };
 
-.contenedor-pq{
-  width: 1140px;
-  height: 100px;
-  background-color: aliceblue;
-  margin: 0 auto;
-  padding: 12px;
-  @each $nombre, $tamanio in $breakpoint{
-    @if $tamanio > 540px{
-      
-      @include redimencionar($nombre){
-        width: $tamanio - 300px;
-      }
-    }@else {
-      @include redimencionar($nombre){
-        width: 100%;
-      }
-    }
-  }
-}
-
-.contenedor-md{
-  width: 1140px;
-  height: 100px;
-  background-color: aliceblue;
-  margin: 0 auto;
-  padding: 12px;
-  @each $nombre, $tamanio in $breakpoint{
-    @if $tamanio > 720px{
-      @include redimencionar($nombre){
-        width: $tamanio - 300px;
+@each $nombre-contenedor, $valor-contenedor in $breakpoint {
+  .contenedor-#{$nombre-contenedor} {   
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: burlywood;
+    @if $nombre-contenedor == "pq"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 540px{
+          
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }@else {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
       }
     }
-    @if $tamanio == 720px{
-      @include redimencionar($nombre){
-        width: 100%;
+    @if $nombre-contenedor == "md"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 720px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 720px{
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
       }
     }
-  }
-}
-
-.contenedor-gn{
-  width: 1140px;
-  height: 100px;
-  background-color: aliceblue;
-  margin: 0 auto;
-  padding: 12px;
-  @each $nombre, $tamanio in $breakpoint{
-    @if $tamanio > 960px{
-      @include redimencionar($nombre){
-        width: $tamanio - 300px;
+    @if $nombre-contenedor == "gn"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 960px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 960px {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
       }
     }
-    @if $tamanio == 960px {
-      @include redimencionar($nombre){
-        width: 100%;
-      }
-    }
-  }
-}
-
-.contenedor-xgn{
-  width: 1140px;
-  height: 100px;
-  background-color: aliceblue;
-  margin: 0 auto;
-  padding: 12px;
-  @each $nombre, $tamanio in $breakpoint{
-    @if $tamanio > 1200px{
-      @include redimencionar($nombre){
-        width: $tamanio - 300px;
-      }
-    }
-    @if $tamanio == 1200px {
-      @include redimencionar($nombre){
-        width: 100%;
+    @if $nombre-contenedor == "xgn"{
+      @each $nombre, $tamanio in $breakpoint{
+        @if $tamanio > 1200px{
+          @include redimencionar($nombre){
+            width: $tamanio - 300px;
+          }
+        }
+        @if $tamanio == 1200px {
+          @include redimencionar($nombre){
+            width: 100%;
+          }
+        }
       }
     }
   }
