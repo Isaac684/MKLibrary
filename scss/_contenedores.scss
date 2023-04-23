@@ -1,15 +1,92 @@
-$contenedor-tamanio-maximo: (
-  pq: 540px,
-  md: 720px,
+$breakpoint: (
+  xgn: 1200px,
   gn: 960px,
-  xgn: 1140px,
+  md: 720px,
+  pq: 540px,
 );
 
-// Source mixin
-@mixin make-container($padding-x: $container-padding-x) {
-  width: 100%;
-  padding-right: $padding-x;
-  padding-left: $padding-x;
-  margin-right: auto;
-  margin-left: auto;
+@mixin redimencionar($tam){
+  @media screen and (max-width: map-get($breakpoint,$tam)){
+    @content;
+  }
+};
+
+.contenedor-pq{
+  width: 1140px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 12px;
+  @each $nombre, $tamanio in $breakpoint{
+    @if $tamanio > 540px{
+      
+      @include redimencionar($nombre){
+        width: $tamanio - 300px;
+      }
+    }@else {
+      @include redimencionar($nombre){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contenedor-md{
+  width: 1140px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 12px;
+  @each $nombre, $tamanio in $breakpoint{
+    @if $tamanio > 720px{
+      @include redimencionar($nombre){
+        width: $tamanio - 300px;
+      }
+    }
+    @if $tamanio == 720px{
+      @include redimencionar($nombre){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contenedor-gn{
+  width: 1140px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 12px;
+  @each $nombre, $tamanio in $breakpoint{
+    @if $tamanio > 960px{
+      @include redimencionar($nombre){
+        width: $tamanio - 300px;
+      }
+    }
+    @if $tamanio == 960px {
+      @include redimencionar($nombre){
+        width: 100%;
+      }
+    }
+  }
+}
+
+.contenedor-xgn{
+  width: 1140px;
+  height: 100px;
+  background-color: aliceblue;
+  margin: 0 auto;
+  padding: 12px;
+  @each $nombre, $tamanio in $breakpoint{
+    @if $tamanio > 1200px{
+      @include redimencionar($nombre){
+        width: $tamanio - 300px;
+      }
+    }
+    @if $tamanio == 1200px {
+      @include redimencionar($nombre){
+        width: 100%;
+      }
+    }
+  }
 }
