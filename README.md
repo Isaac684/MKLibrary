@@ -1,7 +1,7 @@
 # MKLibrary
 
-_El siguiente proyecto se tratara de crear una libreria tipo boostrap donde se implementara estilos personalizados
-para el desarrollo web, ademas se creara una pagina web enfocada enmostrar la implementacion de los estilos de nuestra libreria desarollada._
+_El siguiente proyecto se consta de crear una libreria tipo Boostrap donde se implementan estilos personalizados
+para el desarrollo web, ademas se creara una pagina web enfocada en mostrar la implementacion de los estilos de nuestra propia libreria._
 
 ## Comenzando 🚀
 
@@ -15,7 +15,9 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 _Que cosas necesitas para instalar el software y como instalarlas_
 
 ```
-Da un ejemplo
+-Un editor de texto, puedes ver aqui una lista de algunos editores -> [Los 17 mejores editores de código](https://www.hostinger.es/tutoriales/editores-de-codigo), el equipo de desarrollo de MKLibrary te recomendamos el siguiente editor [Visual Studio Code](https://code.visualstudio.com).
+-Node.js para compilar codigo en SASS.
+-Instalacion previa de SASS.
 ```
 
 ### Instalación 🔧
@@ -71,7 +73,7 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 ## Versionado 📌
 
-La version actual de MKLibrary es la 0.1 para mas informacion mira el archivo [VERSIONS.md](VERSIONS.md).
+La version actual de MKLibrary es la 1.0 para mas informacion mira el archivo [VERSIONS.md](VERSIONS.md).
 
 ## Autores ✒️
 
