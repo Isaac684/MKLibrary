@@ -51,7 +51,6 @@ $breakpoint: (
     display: flex;
     flex-wrap: wrap;
 
-    background-color: burlywood;
     @if $nombre-contenedor == "pq"{
       @each $nombre, $tamanio in $breakpoint{
         @if $tamanio > 540px{
