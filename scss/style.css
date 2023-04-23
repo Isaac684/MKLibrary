@@ -5859,7 +5859,6 @@
   padding: 12px;
   display: flex;
   flex-wrap: wrap;
-  background-color: burlywood;
 }
 @media screen and (max-width: 1400px) {
   .contenedor-xxgn {
@@ -5874,7 +5873,6 @@
   padding: 12px;
   display: flex;
   flex-wrap: wrap;
-  background-color: burlywood;
 }
 @media screen and (max-width: 1400px) {
   .contenedor-xgn {
@@ -5894,7 +5892,6 @@
   padding: 12px;
   display: flex;
   flex-wrap: wrap;
-  background-color: burlywood;
 }
 @media screen and (max-width: 1400px) {
   .contenedor-gn {
@@ -5919,7 +5916,6 @@
   padding: 12px;
   display: flex;
   flex-wrap: wrap;
-  background-color: burlywood;
 }
 @media screen and (max-width: 1400px) {
   .contenedor-md {
@@ -5949,7 +5945,6 @@
   padding: 12px;
   display: flex;
   flex-wrap: wrap;
-  background-color: burlywood;
 }
 @media screen and (max-width: 1400px) {
   .contenedor-pq {
@@ -6465,7 +6460,6 @@ svg {
   background-color: #c6d8e7;
   width: 400px;
   height: 90%;
-  text-align: center;
 }
 
 .link-s {
