@@ -1,56 +1,56 @@
-.fc-primario {
+.cf-primario {
   background-color: #5B8FB9;
 }
 
-.fc-secundario {
+.cf-secundario {
   background-color: #4929aa;
 }
 
-.fc-terciario {
+.cf-terciario {
   background-color: #301E67;
 }
 
-.fc-exito {
+.cf-exito {
   background-color: rgb(61, 201, 61);
 }
 
-.fc-peligro {
+.cf-peligro {
   background-color: rgb(187, 58, 58);
 }
 
-.fc-advertencia {
+.cf-advertencia {
   background-color: rgb(228, 228, 65);
 }
 
-.fc-informacion {
+.cf-informacion {
   background-color: #9bc8ee;
 }
 
-.fc-claro {
+.cf-claro {
   background-color: #B6EADA;
 }
 
-.fc-oscuro {
+.cf-oscuro {
   background-color: #03001C;
 }
 
-.fc-r1 {
+.cf-r1 {
   background-image: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
 }
 
-.fc-r2 {
+.cf-r2 {
   background-image: linear-gradient(90deg, #0800ff 0%, #00ff88 100%);
 }
 
-.fc-r3 {
+.cf-r3 {
   background-image: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 }
 
-.fc-r4 {
+.cf-r4 {
   background-image: linear-gradient(90deg, #00d2ff 0%, #4958ff 100%);
 }
 
-.fc-r5 {
+.cf-r5 {
   background-image: linear-gradient(90deg, #efd5ff 0%, #5e69ff 100%);
 }
 
