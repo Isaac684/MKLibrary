@@ -50,13 +50,13 @@ $color-rgb:(
 );
 
 @each $color, $valorcolor in $color-solido {
-    .fc-#{$color} {   
+    .cf-#{$color} {   
         background-color: $valorcolor;
     }
 }
 
 @each $color, $valorcolor in $color-rgb {
-    .fc-#{$color} {   
+    .cf-#{$color} {   
         background-image: $valorcolor;
     }
 }
