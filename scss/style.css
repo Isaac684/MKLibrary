@@ -6426,13 +6426,11 @@ svg {
 }
 
 .navbar {
-  width: 100%;
-  height: auto;
   text-align: center;
 }
 
 .ig {
-  width: 120px;
+  width: 8vh;
   padding: 8px;
   float: left;
 }
@@ -6442,7 +6440,7 @@ svg {
   padding: 25px 0;
   display: inline-block;
   padding: 25px 0;
-  margin: 30px;
+  margin-right: 15px;
   font-size: 15px;
   font-size: Times;
   transition: transform 0.2s ease-in;
@@ -6464,7 +6462,7 @@ svg {
 }
 
 .barra-vertical {
-  background-color: #B6EADA;
+  background-color: #c6d8e7;
   width: 400px;
   height: 90%;
   text-align: center;
@@ -6474,7 +6472,7 @@ svg {
   display: block;
   text-decoration: none;
   text-align: justify;
-  margin: 30px;
+  padding: 15px;
   color: black;
 }
 

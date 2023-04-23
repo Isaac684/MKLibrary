@@ -24,8 +24,8 @@ $bg2:#3c91e6ff;
 $centrado: 0 auto;
 $wm:100%;
 $h:auto;
-$tama:120px;
-$mg:30px;
+$tama: 8vh;
+$mg:15px;
 $list-n: none;
 $mgl:75px;
 $pd:25px 0;
@@ -43,8 +43,6 @@ background-color:$menu-colort;
 //clase para el menu y centrado
 .navbar{
 
-width: $wm;
-height: $h;
 text-align: $t-a;
 
 
@@ -54,8 +52,6 @@ text-align: $t-a;
     width: $tama;
     padding: $p;
     float: $f;
-    
-   
 }
 //clase para los elementos del menu
 .etiqueta{
@@ -64,9 +60,8 @@ list-style: $list-n;
 padding: $pd;
 display: $ds-iblock;
 padding: $pd;
-margin: $mg;
+margin-right: $mg;
 font-size: $size-1;
-
 font-size: $ft;
 transition: transform .2s ease-in;
 
@@ -80,10 +75,9 @@ transition: transform .2s ease-in;
 }
 .etiqueta:hover{
     color:$bg2;
+
     background-color: $claro;
     transform: translateY(10px);
-    
-   
 }
 
 .color{
@@ -92,7 +86,7 @@ color: $menu-colort ;
 }
 
 .barra-vertical{
-background-color: $claro;
+background-color: lighten($primario, 30) ;
 width: 400px;
 height: 90%;
 text-align: $t-a;
@@ -104,12 +98,11 @@ text-align: $t-a;
 display: block;
 text-decoration: none;
 text-align: justify;
-margin: $mg;
+padding: $mg;
 color: black;
 
 }
 .link-s:hover{
-
     background-color: $bg2;
 }
     
