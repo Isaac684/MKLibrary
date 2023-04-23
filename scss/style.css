@@ -6240,7 +6240,7 @@ svg {
 }
 
 .sf-2 {
-  font-size: 2vh;
+  font-size: 2.3vh;
 }
 
 .sf-3 {
@@ -6437,8 +6437,8 @@ svg {
   padding: 25px 0;
   display: inline-block;
   padding: 25px 0;
-  margin-right: 14px;
-  font-size: 2vh;
+  margin-right: 16px;
+  font-size: 2.3vh;
   font-size: Times;
   transition: transform 0.2s ease-in;
 }
@@ -6469,7 +6469,7 @@ svg {
   display: block;
   text-decoration: none;
   text-align: justify;
-  padding: 14px;
+  padding: 16px;
   color: black;
 }
 
