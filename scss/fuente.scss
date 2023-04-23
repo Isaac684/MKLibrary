@@ -1,9 +1,9 @@
 @use 'colores' as *;
-$size-1: 15px;
-$size-2: 30px;
-$size-3: 45px;
-$size-4: 60px;
-$size-5: 75px;
+$size-1: 1vh;
+$size-2: 2vh;
+$size-3: 3vh;
+$size-4: 4vh;
+$size-5: 5vh;
 
 //sf = Tamaño de la fuente
 @mixin sizefont($nombre,$size){

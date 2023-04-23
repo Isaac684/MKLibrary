@@ -6236,23 +6236,23 @@ svg {
 }
 
 .sf-1 {
-  font-size: 15px;
+  font-size: 1vh;
 }
 
 .sf-2 {
-  font-size: 30px;
+  font-size: 2vh;
 }
 
 .sf-3 {
-  font-size: 45px;
+  font-size: 3vh;
 }
 
 .sf-4 {
-  font-size: 60px;
+  font-size: 4vh;
 }
 
 .sf-5 {
-  font-size: 75px;
+  font-size: 5vh;
 }
 
 .gf {
@@ -6417,6 +6417,8 @@ svg {
 }
 
 .fondo-menu {
+  width: 100%;
+  height: 9vh;
   background-color: rgb(255, 255, 255);
 }
 
@@ -6435,8 +6437,8 @@ svg {
   padding: 25px 0;
   display: inline-block;
   padding: 25px 0;
-  margin-right: 15px;
-  font-size: 15px;
+  margin-right: 14px;
+  font-size: 2vh;
   font-size: Times;
   transition: transform 0.2s ease-in;
 }
@@ -6458,20 +6460,25 @@ svg {
 
 .barra-vertical {
   background-color: #c6d8e7;
-  width: 400px;
-  height: 90%;
+  width: 25%;
+  height: 95%;
+  margin-top: 9vh;
 }
 
 .link-s {
   display: block;
   text-decoration: none;
   text-align: justify;
-  padding: 15px;
+  padding: 14px;
   color: black;
 }
 
 .link-s:hover {
   background-color: #3c91e6;
+}
+
+.fj {
+  position: fixed;
 }
 
 .ocultar {

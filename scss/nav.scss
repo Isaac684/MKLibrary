@@ -25,7 +25,7 @@ $centrado: 0 auto;
 $wm:100%;
 $h:auto;
 $tama: 8vh;
-$mg:15px;
+$mg:14px;
 $list-n: none;
 $mgl:75px;
 $pd:25px 0;
@@ -37,15 +37,13 @@ $t-a:center;
 
 //clase para el color del header
 .fondo-menu{
-
+width: 100%;
+height: 9vh;
 background-color:$menu-colort;
 }
 //clase para el menu y centrado
 .navbar{
-
 text-align: $t-a;
-
-
 }
 //clase logo
 .ig{
@@ -61,7 +59,7 @@ padding: $pd;
 display: $ds-iblock;
 padding: $pd;
 margin-right: $mg;
-font-size: $size-1;
+font-size: $size-2;
 font-size: $ft;
 transition: transform .2s ease-in;
 
@@ -87,8 +85,9 @@ color: $menu-colort ;
 
 .barra-vertical{
 background-color: lighten($primario, 30) ;
-width: 400px;
-height: 90%;
+width: 25%;
+height: 95%;
+margin-top: 9vh;
 }
 
 .link-s{
@@ -103,4 +102,6 @@ color: black;
 .link-s:hover{
     background-color: $bg2;
 }
-    
+.fj{
+    position: fixed;
+} 
