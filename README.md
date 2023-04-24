@@ -23,12 +23,10 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 
 
-Mira **Deployment** para conocer como desplegar el proyecto.
-
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Necesitas tener instalado en tu maquina los siguientes componentes:_
 
 ```
 -Un editor de texto.
@@ -38,21 +36,28 @@ _Que cosas necesitas para instalar el software y como instalarlas_
 
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_El directorio debe ser copiado en la carpeta donde tendras tu propio archivo index_
 
-_Dí cómo será ese paso_
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+_Para importar las librerias, debes incluir el archivo style.css que es donde se encuentran todos los archivos SASS compilados, se hace de la siguiente manera:_
 
 ```
-hasta finalizar
+<head>
+    <link rel="stylesheet" href="/MKLibrary/scss/style.css">
+    <title>Document</title>
+</head>
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Donde MKLibrary es la carpeta del proyecto_
+
+_A continuacion, copia la siguiente linea de codigo para verificar que el repositorio y las clases han sido importadas con exito!_
+
+```
+<div class="cf-r5 sf-5 srgb-3">Ejemplo para verificar el funcionamiento de la libreria.</div>
+```
+
+_Donde en el navegador, deberia mostrarse un cuadrado con el texto adentro que dira "Ejemplo para verificar el funcionamiento de la libreria." esto con color de fondo RGB con degrado y adicionalmente tendra una sombra difuminada._
+
+_En dado caso de no mostrarse, vuelve a repetir los pasos anterios y verifica que los estas haciendo correctamente._
 
 ## Construido con 🛠️
 
