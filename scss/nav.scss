@@ -171,4 +171,31 @@ color: black;
     }
     .fj{
         position: fixed;
-    } 
+    }
+
+@mixin laptop{
+    @media screen and (max-width: 1514px) {
+        @content;
+      }
+}
+
+@include laptop(){
+    $pd1: 12px;
+    .barra-vertical{
+        background-color: lighten($primario, 30) ;
+        width: 19.7%;
+        height: 95%;
+        margin-top: 9vh;
+        }
+        
+        .link-s{
+        
+        display: block;
+        text-decoration: none;
+        text-align: justify;
+        padding: $pd1;
+        color: black;
+        
+        }
+}
+    

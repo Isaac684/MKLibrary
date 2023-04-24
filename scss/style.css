@@ -6558,6 +6558,21 @@ svg {
   position: fixed;
 }
 
+@media screen and (max-width: 1514px) {
+  .barra-vertical {
+    background-color: #c6d8e7;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 9vh;
+  }
+  .link-s {
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    padding: 12px;
+    color: black;
+  }
+}
 .ocultar {
   visibility: hidden;
 }
