@@ -34,7 +34,7 @@ $breakpoint: (
 }
 
 .contenedor-100{
-    width: 100%;
+    width: calc(100% - 24px);
     height: 100%;
     margin: 0 auto;
     padding: 12px;
