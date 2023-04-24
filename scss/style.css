@@ -6627,7 +6627,6 @@ svg {
   text-align: center;
   box-shadow: 2px 2px 8px 0 rgb(73, 72, 73), 4px 4px 16px 0 rgb(58, 56, 56), 0px 0px 24px 2px rgb(55, 60, 143);
   padding: 8px;
-  margin: 0 auto;
   border-radius: 15px;
 }
 
@@ -6671,7 +6670,6 @@ svg {
   height: 400px;
   text-align: center;
   padding: 8px;
-  margin: 0 auto;
   border-radius: 15px 12px 23px 5px;
   justify-content: center;
   text-align: justify;
