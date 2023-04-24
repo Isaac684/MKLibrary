@@ -59,9 +59,9 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de texto utilizado para codificar la libreria.
 * [Node.js](https://nodejs.org/en) - Usado para compilar codigo en SASS
 
-## Wiki 📖
+## Documentacion 📖
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
+Puedes encontrar mucho más de cómo utilizar este proyecto vistanos en nuestra pagina web [MKLibrary](https://isaac684.github.io/MKLibrary.github.io/)
 
 ## Versionado 📌
 
