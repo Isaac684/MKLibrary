@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/MKLibrary/scss/reset.css">
+    <link rel="stylesheet" href="/MKLibrary/scss/style.css">
+
+    <title>Document</title>
+</head>
+<body class="ttxt-Arial">
+    <header class="fondo-menu fj">
+        <div class="navbar ">
+            <img   class="ig p-3" src="/MKLibrary/img/1.png"   alt="MK LIBRARY" >
+            <ul>
+                <li class="etiqueta rde-s"><a class="t-none"  href="#">INICIO</a></li>
+                <li class="etiqueta rde-s"><a class="t-none" href="#">CONTACTOS</a></li>
+                <li class="etiqueta rde-s"> <a class="t-none" href="#">ACERCA DE</a></li>
+                <li class="etiqueta rde-s"> <a class="t-none" href="#">REDES SOCIALES</a></li>
+            </ul>
+            </div> 
+    </header>
+     
+
+    <div class="link barra-vertical mar-1 fj">
+        <h1 class="sf-3 gf p-3">CREAR COMPONENTES</h1>
+        <a class="link-s sf-2" href="#">Botones</a>
+        <a class="link-s sf-2" href="#">Formularios</a>
+        <a class="link-s sf-2" href="/MKLibrary/enlaces/tarjetas.html">Tarjetas</a>
+        <a class="link-s sf-2" href="#" style="background-color: #3c91e6ff;">Alertas</a>
+        <a class="link-s sf-2" href="#">Barras de Navegacion</a>
+        <a class="link-s sf-2" href="#">Badges</a>
+        <a class="link-s sf-2" href="#">Containers</a>
+
+        <h1 class="sf-3 gf p-3">CLASES UTILITARIAS</h1>
+
+        <a class="link-s sf-2" href="#">Modificar tamaño,grosor</a>
+        <a class="link-s sf-2" href="#">Crear Sombras</a>
+        <a class="link-s sf-2 "href="#">Crear Margenes,padding</a>
+        <a class="link-s sf-2"href="#">Mover elementos</a>
+        <a class="link-s sf-2" href="#">Redondear elementos</a>
+        <a class="link-s sf-2" href="#">Ocultar Elementos</a>
+        <a class="link-s sf-2" href="#">Colores de fondo</a>
+    </div>
+    <div style="margin-left: 19.7%; padding-top: 11vh; height: 205vh; display: flex; flex-direction: column;" class="cf-r5 p-5 par-5">
+        <span class="sf-5 mab-5">Alertas</span>
+        <span class="sf-3 ta-justify mab-5">Proporciona mensajes de retroalimentación contextuales para las acciones típicas de los usuarios con mensajes de alerta disponibles y flexibles.</span>
+        <span class="sf-3 gf mab-5">Ejemplos</span>
+        <span class="sf-2 alert mab-5">Las alertas están disponibles en diferentes colores y estilos y para hacer uso de ellas tienes que poner las clases contextuales <span class="gf">obligatorias</span> (por ejemplo <span class="color-font-peligro">.alerta-peligro</span>).</span>
+        <div class="mde-5">
+            <!-- Alerta de informacion normal -->
+            <div class="alerta alerta-informacion m-5">
+                Alerta de información
+            </div>
+            <!-- Alerta de informacion peligro -->
+            <div class="alerta alerta-peligro m-5">
+                Alerta de peligro
+            </div>
+            <!-- Alerta de informacion advertencia -->
+            <div class="alerta alerta-advertencia m-5">
+                Alerta de advertencia
+            </div>
+            <!-- Alerta de informacion completado -->
+            <div class="alerta alerta-completado m-5">
+                Alerta de completado
+            </div>
+        </div>
+        <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-informacion"</span><span>></span>
+                <br>&nbsp &nbsp Alerta de información
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-peligro"</span><span>></span>
+                <br>&nbsp&nbspAlerta de peligro
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-advertencia"</span><span>></span>
+                <br>&nbsp&nbspAlerta de advertencia
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-completado"</span><span>></span>
+                <br>&nbsp&nbspAlerta de completado
+                <span><br> <</span>/div>
+            </div>
+        </div>
+        <span class="sf-5 mab-5">Alertas con links</span>
+        <span class="sf-2 mab-5">Utiliza la clase <span class="color-font-peligro">.alerta-link</span> para para que los enlaces obtengan el color referente igual a cualquier alerta.</span>
+        <div class="mde-5">
+               <!-- Alerta de informacion normal -->
+            <div class="alerta alerta-informacion m-5">
+                Alerta de informacion para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+            </div>
+            <!-- Alerta de informacion peligro -->
+            <div class="alerta alerta-peligro m-5">
+                Alerta de peligro para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+            </div>
+            <!-- Alerta de informacion advertencia -->
+            <div class="alerta alerta-advertencia m-5">
+                Alerta de advertencia para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+            </div>
+            <!-- Alerta de informacion completado -->
+            <div class="alerta alerta-completado m-5">
+                Alerta de completado para mas <a href="#" class="alerta-link">informacion visite aqui</a>
+            </div>
+        </div>
+        <div class="ttxt-Arial sf-2" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-informacion"</span><span>></span>
+                <br>&nbsp &nbsp Alerta de información para mas
+                <span><</span>a href="#" class="alerta-link">informacion visite aqui
+                <span><</span>/a>
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-peligro"</span><span>></span>
+                <br>&nbsp &nbsp Alerta de peligro para mas
+                <span><</span>a href="#" class="alerta-link">informacion visite aqui
+                <span><</span>/a>
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-advertencia"</span><span>></span>
+                <br>&nbsp &nbsp Alerta de advertencia para mas
+                <span><</span>a href="#" class="alerta-link">informacion visite aqui
+                <span><</span>/a>
+                <span><br> <</span>/div>
+            </div>
+            <div class="m-5">
+                <span><</span>div
+                <span>class</span>=<span>"alerta alerta-completado"</span><span>></span>
+                <br>&nbsp &nbsp Alerta de completado para mas
+                <span><</span>a href="#" class="alerta-link">informacion visite aqui
+                <span><</span>/a>
+                <span><br> <</span>/div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
