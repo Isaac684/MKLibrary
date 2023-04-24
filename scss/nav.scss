@@ -36,10 +36,10 @@ $t-a:center;
 
 
 //clase para el color del header
-.fondo-menu{
+.fondo-menu1{
 width: 100%;
 height: 9vh;
-background-color:$menu-colort;
+background-color:white;
 }
 //clase para el menu y centrado
 .navbar{
@@ -105,3 +105,70 @@ color: black;
 .fj{
     position: fixed;
 } 
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//clase para el color del header
+.fondo-menu{
+    width: 100%;
+    height: 9vh;
+    background-color:$secundario;
+    }
+    //clase para el menu y centrado
+    .navbar-2{
+    text-align: $t-a;
+    }
+    //clase logo
+    
+
+
+    //clase para los elementos del menu
+    .etiqueta-2{
+    
+    list-style: $list-n;
+    padding: $pd;
+    display: $ds-iblock;
+    padding: $pd;
+    margin-right: $mg;
+    font-size: $size-2;
+    font-size: $ft;
+    transition: transform .5s ease-in;
+    
+    
+    
+    }
+    .t-none{
+    
+        text-decoration: none;
+        color:black;
+    }
+    .etiqueta-2:hover{
+        color:$bg;
+    
+        background-color: $claro;
+        transform: translateX(20px);
+    }
+    
+    .color{
+    color: $menu-colort ;
+    
+    }
+    
+   
+    .link-s{
+    
+    display: block;
+    text-decoration: none;
+    text-align: justify;
+    padding: $mg;
+    color: black;
+    
+    }
+    .link-s:hover{
+        background-color: $bg2;
+    }
+    .fj{
+        position: fixed;
+    } 
