@@ -201,3 +201,22 @@ color: black;
         }
 }
     
+
+//mMENU 3
+.menu-vertical{
+    background-color:$primario ;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 9vh;
+    }
+    
+    .link-s{
+    text-decoration: none;
+    text-align: justify;
+    padding: $mg;
+    color: black;
+    
+    }
+    .link-s:hover{
+        background-color: $bg2;
+    }
