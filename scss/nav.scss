@@ -174,13 +174,16 @@ color: black;
     }
 
 @mixin laptop{
-    @media screen and (max-width: 1514px) {
+    @media screen and (max-height: 860px) {
         @content;
       }
+    @media screen and (max-width: 1490px){
+        @content;
+    }
 }
 
 @include laptop(){
-    $pd1: 12px;
+    $pd1: 10px;
     .barra-vertical{
         background-color: lighten($primario, 30) ;
         width: 19.7%;
