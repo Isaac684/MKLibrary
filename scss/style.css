@@ -6593,4 +6593,84 @@ svg {
   border-radius: 50%;
 }
 
+.card-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  box-shadow: 2px 2px 8px 0 rgb(73, 72, 73), 4px 4px 16px 0 rgb(58, 56, 56), 0px 0px 24px 2px rgb(55, 60, 143);
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+
+.t-image {
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  text-align: center;
+}
+
+.card-1:hover {
+  box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
+
+.card-title {
+  display: grid;
+  width: 100%;
+  color: black;
+}
+
+.card-body {
+  display: grid;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.card-pie {
+  display: grid;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  border-top: 3px black solid;
+}
+
+.card-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 500px;
+  height: 400px;
+  text-align: center;
+  padding: 8px;
+  margin: 0 auto;
+  border-radius: 15px 12px 23px 5px;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+  box-shadow: 2px 2px 8px 0 rgb(81, 16, 88), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(43, 12, 51);
+  transition: transform 0.5s ease-in;
+}
+
+.card-2:hover {
+  transform: translateY(15px);
+}
+
+.card-left {
+  display: grid;
+  text-align: center;
+  color: black;
+}
+
+.card-right {
+  display: grid;
+  text-align: center;
+  color: white;
+  border: groove 2px rgb(255, 255, 255);
+  margin: 13px;
+}
+
 /*# sourceMappingURL=style.css.map */
