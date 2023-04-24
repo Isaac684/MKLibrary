@@ -43,7 +43,7 @@
         <a class="link-s sf-2" href="#">Ocultar Elementos</a>
         <a class="link-s sf-2" href="#">Colores de fondo</a>
     </div>
-    <div style="margin-left: 19.7%; padding-top: 11vh; height: 2000vh;display: flex; flex-direction: column; " class="cf-r5 p-5 par-5">
+    <div style="margin-left: 19.7%; padding-top: 11vh; height: 265h;display: flex; flex-direction: column; " class="cf-r5 p-5 par-5">
         <span class="sf-5 mab-5">Formularios</span>
         <span class="sf-3 ta-justify mab-5">Proporciona mensajes de retroalimentación contextuales para las acciones típicas de los usuarios con mensajes de alerta disponibles y flexibles.</span>
         <span class="sf-4 gf mab-5">Ejemplo</span>
@@ -164,9 +164,37 @@
                 <span><br><</span>/select>
             </div>
         </div>
-        <span class="sf-4 gf mab-5 mar-5">ComboBox o listas</span>
-        <span class="sf-2 ta-justify mab-5">Se puede crear un combobox o lista con multiples opciones aqui un ejemplo:</span>
- 
+        <span class="sf-4 gf mab-5 mar-5">Desactivado</span>
+        <span class="sf-2 ta-justify mab-5">Todos los apartados de los formularios de pueden desactivar para que el usuario no pueda seleccionar o presionar algo que no se quiera que precione aun</span>
+        <div class="mde-5" style="display:flex; flex-direction: column;" >
+            <label class="form-etiqueta" >ComboBox desactivado</label>
+            <select disabled name="" id="" class="form-Cmb-xl disable miz-5" size="1">
+                <option selected>Abre el menu</option>
+                <option value="1">Opcion 1</option>
+                <option value="2">Opcion 2</option>
+                <option value="3">Opcion 3</option>
+            </select>
+            <label class="form-etiqueta" >Boton desactivado</label>
+            <button disabled="disabled" class="btn btn-disable-sm miz-5">Desactive</button>
+            <label class="form-etiqueta" >TextBox Desactivados</label>
+            <input disabled type="text" class="form-control disable" aria-placeholder="email">
+        </div>
+        <div class="ttxt-Arial sf-2 mar-5" style="background-color: rgb(243, 243, 243); border: 1px solid rgb(153, 153, 153);">
+            <div class="m-5">
+                <span><</span>label class="form-etiqueta">ComboBox desactivado <span><</span>/label>
+                <span><</span>select
+                <span>name</span>=<span>"" id="" class="form-Cmb-xl" size="1"</style></span><span>></span>
+                <br>&nbsp &nbsp &nbsp &nbsp <span><</span>option selected>Abre el menu<span><</span>/option>
+                <br>&nbsp &nbsp &nbsp &nbsp<span><</span>option value="1">Opcion 1 <span><</span>/option> 
+                <br>&nbsp &nbsp &nbsp &nbsp<span><</span>option value="2">Opcion 2 <span><</span>/option> 
+                <br>&nbsp &nbsp &nbsp &nbsp<span><</span>option value="3">Opcion 2 <span><</span>/option> 
+                <span><br><</span>/select>
+                <br><br><span><</span>label class="form-etiqueta">Boton desactivado<span><</span>/label>
+                <br><span><</span>button disable="disabled" class="btn btn-disable-sm">Desactive <span><</span>/button>
+                <br><br><span><</span>label class="form-etiqueta">TextBox Desactivado<span><</span>/label>
+                <br><span><</span>input disabled type="text" class="form-control disable" aria-placeholder="email">
+            </div>
+        </div>
     </div>
 </body>
 </html>
