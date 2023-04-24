@@ -10,12 +10,17 @@ _Nuestra librería consta de estilos personalizados enfocados al mundo GAMER, ut
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-1-Acceder a la direccion del github teniendo los permisos como colaborador para acceder a los archivos. /br>
-2-Dirigirse al apartado de CODE( en color verde) y copiar el link del repositorio.  /br>
-3-Dirigirse al entorno de desarrollo en este caso (VISUAL STUDIO). /br>
-4-Crear una carpeta de manera local en el directorio de tu computadora. /br>
-5- Estando en la carpeta, abrir  la consola con crtl +ñ y agregar el siguiente comando "clone git + link del repositorio". /br>
-6-Le damos aceptar y ya tendriamos el repositorio en nuestro ordenador. /br>
+```
+1-Acceder a la direccion del github teniendo los permisos como colaborador para acceder a los archivos.
+2-Dirigirse al apartado de CODE( en color verde) y copiar el link del repositorio.  
+3-Dirigirse al entorno de desarrollo en este caso (VISUAL STUDIO). 
+4-Crear una carpeta de manera local en el directorio de tu computadora. 
+5- Estando en la carpeta, abrir  la consola con crtl +ñ y agregar el siguiente comando "clone git + link del repositorio". 
+6-Le damos aceptar y ya tendriamos el repositorio en nuestro ordenador. 
+
+```
+
+
 
 
 Mira **Deployment** para conocer como desplegar el proyecto.
