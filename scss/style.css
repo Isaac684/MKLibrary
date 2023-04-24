@@ -6631,7 +6631,7 @@ svg {
 }
 
 .sombra-superior {
-  box-shadow: -25px -25px 10px #03001C;
+  box-shadow: -15px -25px 10px #03001C;
 }
 
 .sombra-inferior {
@@ -6646,8 +6646,12 @@ svg {
   box-shadow: 2px 2px 8px 0 rgb(73, 72, 73), 4px 4px 16px 0 rgb(58, 56, 56), 0px 0px 24px 2px rgb(55, 60, 143);
 }
 
-.srgb-2 {
+.srgb-3 {
   box-shadow: 2px 2px 8px 0 rgb(81, 16, 88), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(43, 12, 51);
+}
+
+.tex-s {
+  text-shadow: 4px 6px 8px black;
 }
 
 .card-1 {
