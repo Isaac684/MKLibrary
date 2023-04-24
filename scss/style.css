@@ -6618,6 +6618,42 @@ svg {
   border-radius: 50%;
 }
 
+.sombra-1 {
+  box-shadow: rgb(185, 180, 180);
+}
+
+.sombra-2 {
+  box-shadow: 10px 5px 5px #03001C;
+}
+
+.sombra-3 {
+  box-shadow: inset 4px 4px 4px 0 rgba(20, 20, 20, 0.2);
+}
+
+.sombra-superior {
+  box-shadow: -15px -25px 10px #03001C;
+}
+
+.sombra-inferior {
+  box-shadow: 25px 25px 10px #03001C;
+}
+
+.srgb-1 {
+  box-shadow: 2px 2px 8px 0 rgb(209, 102, 221), 4px 4px 16px 0 #d66, 0px 0px 24px 2px rgb(221, 197, 102);
+}
+
+.srgb-2 {
+  box-shadow: 2px 2px 8px 0 rgb(73, 72, 73), 4px 4px 16px 0 rgb(58, 56, 56), 0px 0px 24px 2px rgb(55, 60, 143);
+}
+
+.srgb-3 {
+  box-shadow: 2px 2px 8px 0 rgb(81, 16, 88), 4px 4px 16px 0 rgb(2, 1, 1), 0px 0px 24px 2px rgb(43, 12, 51);
+}
+
+.tex-s {
+  text-shadow: 4px 6px 8px black;
+}
+
 .card-1 {
   display: grid;
   grid-template-columns: 1fr;
@@ -6627,7 +6663,6 @@ svg {
   text-align: center;
   box-shadow: 2px 2px 8px 0 rgb(73, 72, 73), 4px 4px 16px 0 rgb(58, 56, 56), 0px 0px 24px 2px rgb(55, 60, 143);
   padding: 8px;
-  margin: 0 auto;
   border-radius: 15px;
 }
 
@@ -6671,7 +6706,6 @@ svg {
   height: 400px;
   text-align: center;
   padding: 8px;
-  margin: 0 auto;
   border-radius: 15px 12px 23px 5px;
   justify-content: center;
   text-align: justify;
@@ -6715,7 +6749,7 @@ svg {
   color: white;
   padding: 4px;
   border-radius: 10px;
-  box-shadow: 10px 5px 5px #03001C;
+  box-shadow: rgb(185, 180, 180);
 }
 
 .badge-3 {
