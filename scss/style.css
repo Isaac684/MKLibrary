@@ -6587,6 +6587,24 @@ svg {
     color: black;
   }
 }
+.menu-vertical {
+  background-color: #5B8FB9;
+  width: 19.7%;
+  height: 95%;
+  margin-top: 9vh;
+}
+
+.link-s {
+  text-decoration: none;
+  text-align: justify;
+  padding: 16px;
+  color: black;
+}
+
+.link-s:hover {
+  background-color: #3c91e6;
+}
+
 .ocultar {
   visibility: hidden;
 }
