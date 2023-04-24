@@ -15,7 +15,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 2-Dirigirse al apartado de CODE( en color verde) y copiar el link del repositorio.  
 3-Dirigirse al entorno de desarrollo en este caso (VISUAL STUDIO). 
 4-Crear una carpeta de manera local en el directorio de tu computadora. 
-5- Estando en la carpeta, abrir  la consola con crtl +ñ y agregar el siguiente comando "clone git + link del repositorio". 
+5- Estando en la carpeta, abrir  la consola con crtl +ñ y agregar el siguiente comando "git clone + link del repositorio". 
 6-Le damos aceptar y ya tendriamos el repositorio en nuestro ordenador. 
 
 ```
