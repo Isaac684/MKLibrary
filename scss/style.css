@@ -5844,10 +5844,9 @@
 }
 
 .contenedor-100 {
-  width: calc(100% - 24px);
+  width: 100%;
   height: 100%;
   margin: 0 auto;
-  padding: 12px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -5969,6 +5968,82 @@
 @media screen and (max-width: 540px) {
   .contenedor-pq {
     width: 100%;
+  }
+}
+
+/*Apartado para generar columnas y filas*/
+.fila {
+  display: grid;
+  gap: 1px;
+}
+
+.columna-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.columna-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .columna-2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.columna-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .columna-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 960px) {
+  .columna-3 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.columna-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .columna-4 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 960px) {
+  .columna-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 720px) {
+  .columna-4 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.columna-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+@media screen and (max-width: 1200px) {
+  .columna-5 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (max-width: 960px) {
+  .columna-5 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 720px) {
+  .columna-5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 540px) {
+  .columna-5 {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
