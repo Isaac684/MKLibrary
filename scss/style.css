@@ -6960,6 +6960,16 @@ svg {
   border-radius: 10px;
 }
 
+.icono- {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .-link-bad {
   text-decoration: none;
   color: white;
