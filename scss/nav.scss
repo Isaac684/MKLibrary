@@ -17,7 +17,7 @@ $pd:0px 20px;
 
 //colores menu
 $menu-colort:rgb(255, 255, 255);
-$bg:rgb(183, 183, 202);
+$bg:rgb(255, 255, 255);
 $bg2:#3c91e6ff;
 
 //centrado y tamaño de imagen
@@ -39,7 +39,7 @@ $t-a:center;
 .fondo-menu{
 width: 100%;
 height: 9vh;
-background-color:$menu-colort;
+background-color:#e2e3d9;
 }
 //clase para el menu y centrado
 .navbar{
@@ -69,13 +69,12 @@ transition: transform .2s ease-in;
 .t-none{
 
     text-decoration: none;
-    color:black;
+    color:rgb(255, 255, 255);
 }
 .etiqueta:hover{
     color:$bg2;
-
-    background-color: $claro;
-    transform: translateY(10px);
+    background-color: rgb(124, 121, 121);
+    transform: translateY(5px);
 }
 
 .color{
@@ -202,3 +201,22 @@ color: black;
         }
 }
     
+
+//mMENU 3
+.menu-vertical{
+    background-color:$primario ;
+    width: 19.7%;
+    height: 95%;
+    margin-top: 9vh;
+    }
+    
+    .link-s{
+    text-decoration: none;
+    text-align: justify;
+    padding: $mg;
+    color: black;
+    
+    }
+    .link-s:hover{
+        background-color: $bg2;
+    }
